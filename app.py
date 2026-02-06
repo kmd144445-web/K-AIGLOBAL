@@ -10,8 +10,8 @@ st.markdown("### নির্মাতা ও মালিক: খোরশে�
 # সাবধান: এটি অত্যন্ত গোপনীয়
 genai.configure(api_key="AIzaSyDSyAP-S6whAKFCIi1AWQ7C8XuBjitYXfE")
 
-# সরাসরি Gemini 2.5 Flash মডেল ব্যবহার করছি
-model = genai.GenerativeModel('gemini-2.5-flash')
+# সরাসরি Gemini 1.5 Flash মডেল ব্যবহার করছি
+model = genai.GenerativeModel('gemini-1.5-flash')
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
